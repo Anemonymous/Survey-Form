@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey: Am I a Javatar?</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- US#1 -->
+<h1 id="title">Am I a Javatar (Java Avatar)?</h1>
+
+<!-- US#2 -->
+<p id="description">
+  This is a survey to gauge my excellence (or lack thereof) on a certain programming language (Java).
+</p>
+
+<!-- US#3 -->
+<form action="" id="survey-form">
+  
+<!-- US#4 -->
+<!-- US#10 -->
+<!-- US#11 -->
+  <div>
+    <label id="name-label" for="Name">Enter your name here: </label><br>
+    <input type="text" placeholder="enter your name here..." required id="name">
+  </div>
+  
+<!-- US#5 -->
+<!-- US#6 -->
+  <div>
+    <label id="email-label" for="Email-Address">Enter your email address here: </label><br>
+    <input type="email" placeholder="enter your email address here..." required id="email">
+  </div>
+  
+<!-- US#7 -->
+<!-- US#8 -->
+<!-- US#9 -->
+  <div>
+    <label id="number-label" for="Age">How old are you? (optional) </label><br>
+    <input type="number" placeholder="enter your age here..." id="number" min="1" max="100">
+  </div> 
+
+<!-- US#12 -->
+  <div>
+    <label for="relation">How are we related?</label><br>
+    <select name="Relation" id="dropdown">
+     <option disabled selected value>What am I to you?</option>
+     <option value="friend">friend</option>
+     <option value="colleague">colleague</option>
+     <option value="stranger">stranger</option>
+     <option value="other">other</option>
+    </select>
+  </div>
+  
+<!-- US#13 -->
+  <div>
+    <label for="rating">How would you rate my skills?</label><br>
+    <input type="radio" name="Skill-Rating" value="5" checked> Excellent<br>
+    <input type="radio" name="Skill-Rating" value="4"> Good<br>
+    <input type="radio" name="Skill-Rating" value="3"> Just Right<br>
+    <input type="radio" name="Skill-Rating" value="2"> Needs Improvement<br>
+    <input type="radio" name="Skill-Rating" value="1"> Terrible.<br>
+  </div>
+
+<!-- US#14 -->
+  <div>
+    <label for="interaction">Where have you experienced my works?</label><br>
+    <input type="checkbox" name="Interaction" value="work"> via work<br>
+    <input type="checkbox" name="Interaction" value="socmed"> via online in social media<br>
+    <input type="checkbox" name="Interaction" value="client"> via subscriber/client<br>
+    <input type="checkbox" name="Interaction" value="education"> via education<br>
+    <input type="checkbox" name="Interaction" value="others"> others<br>
+  </div>
+  
+<!-- US#15 -->  
+  <div>
+    Do you have comments for my improvement? <br>
+    <textarea rows="5" placeholder="comments..."></textarea ><br>
+  </div>
+  
+<!-- US#16 -->
+  <div>
+    <button type="submit" id="submit">Submit</button>
+  </div>
+</form>
+</body>
+</html>
